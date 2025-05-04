@@ -44,16 +44,3 @@ These models are capable of capturing **semantic** and **syntactic** relationshi
   - `King - Man + Woman = Queen`
   - `Paris - France + Italy = Rome`
 
----
-
-## 📂 Structure
-
-```plaintext
-.
-├── data/                 # Dataset used for training
-├── models/               # Trained CBOW and Skip-gram models
-├── src/                  # Implementation code
-│   ├── cbow.py
-│   ├── skipgram.py
-├── utils/                # Helper functions
-└── README.md             # Project documentation
